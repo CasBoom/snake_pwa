@@ -7,13 +7,13 @@ body{
 }
 canvas#myCanvas {
   background-color:#000000;
-  margin-left:auto;
+  margin-left:calc(50%-200px);
   margin-right:auto;
   display:inline-block;
 }
 button{
   display:inline;
-  width:45%;
+  width:50%;
   border:0;
   margin:0;
   padding:0;
