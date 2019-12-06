@@ -4,11 +4,13 @@
 body{
   overflow:hidden;
   margin:0;
+  background-color:#000000;
 }
 canvas#myCanvas {
   background-color:#000000;
-  margin-left:calc(50%-200px);
+  margin-left:calc(50% - 200px);
   margin-right:auto;
+  border:1px solid #fff;
   display:inline-block;
 }
 button{
