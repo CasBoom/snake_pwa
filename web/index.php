@@ -12,12 +12,18 @@ canvas#myCanvas {
   display:inline-block;
 }
 button{
-  width:50%;
+  display:inline;
+  width:45%;
+  border:0;
   margin:0;
+  padding:0;
   background-color:#0000ff;
   height:1000px;
 }
+#left{
+  background-color:#ff0000;
+}
 </style>
 <br>
-<button id="right" type="button"></button>
-<button id="left" type="button"></button>
+<button id="right" type="button"></button><!--
+--><button id="left" type="button"></button>
