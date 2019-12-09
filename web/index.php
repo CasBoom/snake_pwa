@@ -1,3 +1,8 @@
+<head>
+  <link rel="manifest" href="manifest.json">
+  <meta name="viewport" content="width=device-width, initial-scale=2.0, maximum-scale=2.0, user-scalable=no" />
+</head>
+</body>
 <canvas id='myCanvas' width='400' height='400'>Outdated browser detected!</canvas>
 <script src="main.js"></script>
 <style>
@@ -8,9 +13,9 @@ body{
 }
 canvas#myCanvas {
   background-color:#000000;
-  margin-left:calc(50% - 200px);
+  margin-left:calc(50% - 205px);
   margin-right:auto;
-  border:1px solid #fff;
+  border:5px solid #fff;
   display:inline-block;
 }
 button{
@@ -29,3 +34,8 @@ button{
 <br>
 <button id="right" type="button"></button><!--
 --><button id="left" type="button"></button>
+</body>
+<script>
+  if(navigator.serviceWorker){
+    navigator.serviceWorker.register('sw.js');
+  }
