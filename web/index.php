@@ -1,6 +1,6 @@
 <head>
   <link rel="manifest" href="manifest.json">
-  <meta name="viewport" content="width=device-width, initial-scale=2.0, maximum-scale=2.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=no" />
 </head>
 </body>
 <canvas id='myCanvas' width='400' height='400'>Outdated browser detected!</canvas>
